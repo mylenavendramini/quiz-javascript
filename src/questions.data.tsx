@@ -362,6 +362,11 @@ const questions: QuestionsData[] = [
       },
       {
         answerText:
+          "Closure means that an inner function have access to the variables within the outer function environment. In JS, closure are always created in the moment a function is called.",
+        isCorrect: false,
+      },
+      {
+        answerText:
           "Closure means that an inner function don't have access to the variables within the outer function environment, only the varibles declared inside of the inner function.",
         isCorrect: false,
       },
