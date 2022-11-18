@@ -31,6 +31,7 @@ function Question() {
     }
   };
 
+  
   return (
     <QuizComponent>
       <h1>JavaScript Quiz</h1>
