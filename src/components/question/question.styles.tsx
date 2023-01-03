@@ -39,8 +39,7 @@ export const AnswerContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  button,
-  a {
+  button {
     align-items: center;
     margin: 1rem auto;
     appearance: none;
