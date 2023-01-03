@@ -20,9 +20,8 @@ function Question() {
     if (isCorrect) {
       // setPoints(Points + 1);
       setPoints(points + 1);
-      alert("Right answer!");
     } else {
-      alert("Wrong answer! Let's try the next question?");
+      alert("Wrong answer! 🙁");
     }
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questionsData.length) {
