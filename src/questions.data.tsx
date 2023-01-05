@@ -207,6 +207,120 @@ const questions: QuestionsData[] = [
       { answerText: "Polymorphism", isCorrect: true },
     ],
   },
+  {
+    typeQuestion: "Functional Programming",
+    questionText: `What is Functional programming?`,
+    answerText:
+      "Functional programming is a style of programming where the solutions are simple, isolated functions, without side effects.",
+    answerOptions: [
+      {
+        answerText:
+          "Functional programming is a style of programming where the focus are the objects.",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Functional programming is a style of programming where the solutions are simple, isolated functions, without side effects.",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    typeQuestion: "Functional Programming",
+    questionText: `What is a callback function?`,
+    answerText:
+      "Callbacks are the functions that are slipped or passed into another function to decide the invocation of that function.",
+    answerOptions: [
+      {
+        answerText:
+          "The idea of callback functions is that functions can not be treated as values.",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Callback functions are functions that can be assigned to a variable, passed into another function as a parameter, or returned from another function just like any other normal value.",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Callbacks are the functions that are slipped or passed into another function to decide the invocation of that function.",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    typeQuestion: "Functional Programming",
+    questionText: `What are first class functions?`,
+    answerText:
+      "First class functions are functions that can be assigned to a variable, passed into another function as a parameter, or returned from another function just like any other normal value.",
+    answerOptions: [
+      {
+        answerText:
+          "First class functions are functions that can be assigned to a variable, passed into another function as a parameter, or returned from another function just like any other normal value.",
+        isCorrect: true,
+      },
+      {
+        answerText:
+          "The idea of functions as first-class entities is that functions are also treated as values and used as data. In JavaScript, some of the functions are first class functions.",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "First-class are the functions that are slipped or passed into another function to decide the invocation of that function.",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    typeQuestion: "Functional Programming",
+    questionText: `What are higher order functions?`,
+    answerText:
+      "Higher order functions are functions that take a function as an argument, or return a function as a return value.",
+    answerOptions: [
+      {
+        answerText:
+          "Higher order functions are functions that take a function as an argument, or return a function as a return value.",
+        isCorrect: true,
+      },
+      {
+        answerText:
+          "Higher order functions are functions that can be assigned to a variable, passed into another function as a parameter, or returned from another function just like any other normal value.",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Higher order functions are the functions that are slipped or passed into another function to decide the invocation of that function.",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    typeQuestion: "Functional Programming",
+    questionText: `Mark the correct sentence.`,
+    answerText: "",
+    answerOptions: [
+      {
+        answerText:
+          "Any function that relies on a random number generator are pure.",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Pure functions are predictable because the only thing they depend on is their input, and the only thing they do is return their output, with no side effects. With pure functions, the code is easier to test.",
+        isCorrect: true,
+      },
+      {
+        answerText:
+          "Referential Transparency means that functions do not rely on anything beyond their parameters and given the same parameters they can return different answers.",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "Using the splice method instead of slice helps to avoid any array-mutating side effects.",
+        isCorrect: false,
+      },
+    ],
+  },
 ];
 
 export function getQuestions() {
