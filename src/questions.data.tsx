@@ -321,6 +321,29 @@ const questions: QuestionsData[] = [
       },
     ],
   },
+  {
+    typeQuestion: "Functional Programming",
+    questionText: `_ adds items to the end of the same array it is called on, which mutates that array._ offers a way to merge new items to the end of an array without any mutating side.`,
+    answerText: "push and concat",
+    answerOptions: [
+      {
+        answerText: "Unshift and join",
+        isCorrect: false,
+      },
+      {
+        answerText: "Shift and concat",
+        isCorrect: false,
+      },
+      {
+        answerText: "push and join",
+        isCorrect: false,
+      },
+      {
+        answerText: "push and concat",
+        isCorrect: true,
+      },
+    ],
+  },
 ];
 
 export function getQuestions() {
