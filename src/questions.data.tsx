@@ -335,12 +335,39 @@ const questions: QuestionsData[] = [
         isCorrect: false,
       },
       {
-        answerText: "push and join",
+        answerText: "Push and join",
         isCorrect: false,
       },
       {
-        answerText: "push and concat",
+        answerText: "Push and concat",
         isCorrect: true,
+      },
+    ],
+  },
+  {
+    typeQuestion: "Asynchronous programming",
+    questionText: `Mark the correct sentence about Promises. `,
+    answerText:
+      "Promise is an object representing the current state of the operation (pending, fulfilled or rejected). This object is returned by an asynchronous function (e.g a API call) and it is a future unknown value.",
+    answerOptions: [
+      {
+        answerText:
+          "Promise is an object representing the current state of the operation (pending, fulfilled or rejected). This object is returned by an asynchronous function (e.g a API call) and it is a future unknown value.",
+        isCorrect: true,
+      },
+      {
+        answerText:
+          "Promises have only two possible states: fulfilled or rejected.",
+        isCorrect: false,
+      },
+      {
+        answerText:
+          "We can't have promises that allows us to write asynchronous code in a synchronous way.",
+        isCorrect: false,
+      },
+      {
+        answerText: "A promise is always a value that is known.",
+        isCorrect: false,
       },
     ],
   },
