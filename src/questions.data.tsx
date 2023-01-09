@@ -352,11 +352,6 @@ const questions: QuestionsData[] = [
     answerOptions: [
       {
         answerText:
-          "Promise is an object representing the current state of the operation (pending, fulfilled or rejected). This object is returned by an asynchronous function (e.g a API call) and it is a future unknown value.",
-        isCorrect: true,
-      },
-      {
-        answerText:
           "Promises have only two possible states: fulfilled or rejected.",
         isCorrect: false,
       },
@@ -368,6 +363,11 @@ const questions: QuestionsData[] = [
       {
         answerText: "A promise is always a value that is known.",
         isCorrect: false,
+      },
+      {
+        answerText:
+          "Promise is an object representing the current state of the operation (pending, fulfilled or rejected). This object is returned by an asynchronous function (e.g a API call) and it is a future unknown value.",
+        isCorrect: true,
       },
     ],
   },
